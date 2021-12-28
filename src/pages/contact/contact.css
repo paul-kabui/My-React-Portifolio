@@ -1,0 +1,14 @@
+.custom-btn{
+    background: linear-gradient(to right top, #f97f32, #fa9826);
+}
+.custom-btn :hover{
+    background-color: #5665FB;
+}
+
+.contact-btn{
+    position: fixed;
+    top: 50%;
+    right: -18px;
+    transform: rotate(90deg);
+
+}

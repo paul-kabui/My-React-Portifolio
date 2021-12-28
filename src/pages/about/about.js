@@ -1,7 +1,10 @@
-function AboutMeComp(){
+import MediaHandles from "../contact/media"
+
+function AboutMe(){
     return(
-        <div>
-            <h4 className="mt-4 fw-bold text-muted">About Me</h4>
+        <div className='container-md' style={{"marginTop":"5rem"}}>
+            <MediaHandles/>
+            <h4 className="mt-4 fw-bold" style={{'color':'#f97f32'}}>About Me</h4>
             <div className="row border bg-light m-3 p-4">
                 <h4 className="text-decoration-underline display-4">Hobbies and Interest</h4>
                 <ul>
@@ -24,5 +27,5 @@ function AboutMeComp(){
         </div>
     )
 }
- 
-export default AboutMeComp
+
+export default AboutMe
